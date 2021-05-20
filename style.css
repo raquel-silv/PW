@@ -1,0 +1,148 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #efe9e5;
+}
+
+    .menu-principal{
+        width: 100%;
+        background-color: #231f20;
+        height: 75px;
+        border-bottom: 5px solid #d40000;
+    }
+
+    .logo {
+        float: left;
+        padding: 10px;
+        width: 30%;
+        position: static;
+        font-weight: 100%;
+    }
+
+    .texto {
+        margin-left: 0px;
+        display: inline-block;
+        list-style: none; 
+        width: 30%;
+        color: #ffffff;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        position: center;
+        font-weight: 100%;
+    }
+
+    .redes-sociais ul li {
+        margin-left: 7px;
+        display: inline-block;
+        list-style: none;    
+    }
+
+        .redes-sociais {
+            width: 30%;
+            float: right;
+        }
+
+    .redes-sociais p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11;
+        color: #ffffff;
+    }
+
+    .menu h1 {
+        color: #ffffff;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        height: 35px;
+        float: left;
+        width: 50%;
+        position: absolute;
+    }
+
+    .menu ul li {
+        color: #ffa500;
+        display: inline-block;
+        margin-left: 15px;
+        position: center;
+    }
+
+    .menu ul li a {
+        color: #ff6908;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .menu {
+        width: 70%;
+        float: left;
+    }
+
+    .col-100 {
+        width: 70%;
+        float: left;
+        position: relative;
+    }
+
+    .paragrafo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+    .galery {
+        width: 1345px;
+        height: 500px;
+        border: #231f20 3px solid;
+        background-color: #231f20;
+        overflow: hidden;
+        position: center;
+    }
+
+        .galery .fotos {
+            width: 500%;
+            animation-name: animacao;
+            animation-duration: 18s;
+            animation-iteration-count: infinite;
+            position: center;
+        }
+
+            .galery .fotos img {
+                width: 19.9%;
+            }
+                @keyframes animacao {
+                    0% { margin-left: 0; }
+                    20% { margin-left: 0; }
+                    25% { margin-left: -100%; }
+                    45% { margin-left: -100%; }  
+                    50% { margin-left: -200%; }
+                    70% { margin-left: -200%; }
+                    75% { margin-left: -300%; }
+                    95% { margin-left: -300%; }
+                    100% { margin-left: -400%; }
+                }
+
+        .botao a {
+            color: #ffffff;
+            background: #d40000;
+            border: 3px solid #f8c735;
+            display: block;
+
+            margin: 50px auto;
+            width: 150px;
+            height: 50px;
+            line-height: 50px;
+            
+            text-align: center;
+            font-weight: 400;
+            font-family: monospace;
+            font-size: 16px;
+            border-radius: 10%;
+
+            position: unset;
+        }
+        
+            .botao a:hover {
+                background-color: #231f20;
+            }
+            

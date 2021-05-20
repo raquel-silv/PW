@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pt-br">
+        <meta charset="utf-8">
+        <title>Cadastro Para Pedido</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body></body>
+    
+        <section>
+            <div class="texto">>
+                <center><h1>Estamos quase lá :) ! Prencha com seus dados e já está Pronto</h1></center>
+            </div>
+
+
+            <div class="formulario">
+                <fieldset>
+                    <form>
+    <!--H1 Login-->
+                <h1>Cadastro</h1>
+                                <!--Nome-Sobrenome-CPF-->
+                    <div class="informacao-pessoal">
+<!--nome-->
+                    <div class="nome">
+                        <strong><label for="nome">Nome</label></strong>
+                        <input type="text" name="nome" placeholder="Digite o seu Nome">
+                    </div>
+<!--sobrenome-->
+                    <div class="sobrenome">
+                        <strong><label for="sobrenome">Sobrenome</label></strong> 
+                        <input type="text" name="sobrenome" placeholder="Digite seu Sobrenome">
+                    </div>
+<!--cpf-->
+                    <div class="cpf">
+                        <strong><label for="cpf">CPF</label></strong>
+                        <input type="text" name="cpf"
+                             pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="Informe um CPF válido">
+                    </div>
+                            </div>
+                    
+                                <!--Informações-->
+                    <div class="contato">
+<!--dia-->
+                        <div class="dia">
+                                <strong><label for="diaa">Informe a data do seu aniversário:</label></strong>
+                                <input type="date" id="diaa" name="diaa">
+                        </div>
+<br>
+<!--endereço-->
+                        <div class="endereço">        
+                                <strong><label for="endereco">Endereço</label></strong>
+                                <input type="text" id="endereco" name="endereco" placeholder="Endereço Completo">
+                        </div>
+<!--num-->
+                        <div class="num">
+                                <strong><label for="num">Número</label></strong>
+                                <input type="number" id="num" name="num" placeholder="Numero da casa">
+                            </div>
+<!--telefone-->
+                        <div class="telefone">
+                            <strong><label for="telefone">Telefone</label></strong>
+                            <input type="tel" id="telefone" name="telefone">
+                        </div>
+                    </div>
+<br><br>
+
+                                <!--Comidas-->
+                    <div class="pedido-final">
+<!--salgados-->
+                        <div class="pedido">
+                            <strong><label for="pedido">Selecione seu Pedido:</label></strong></div>
+
+                        <div class="salgados">
+                        <label for="lanches">Salgados:</label>                        
+                            <select>     
+                                <option value="coxinha">Coxinha</option>
+                                <option value="rissole">Rissole</option>
+                                <option value="esfihas">Esfihas</option>
+                                <option value="pão de queijo">Pão de queijo</option>
+                                <option value="tortas">Tortas</option>
+                                <option value="pasteis">Pasteis</option>
+                                <option value="empadas">Empadas</option>
+                                <option value="hot dog">Hot dog</option></select>
+                            </div>
+<!--Lanches-->
+                            <div class="lanches">
+                                <label for="lanches">Lanches quentes e naturais:</label>                        
+                                    <select>
+                                        <option value="sanduíches">Sanduíches</option>
+                                        <option value="hambúrguer">Hambúrguer</option>
+                                        <option value="hambúrguer">Hambúrguer Vegano</option>
+                                        <option value="baguete de queijo">Baguete de queijo</option>
+                                        <option value="pao frances">Pão Francês</option></select>
+                            </div>
+<!--Bebidas-->
+                            <div class="bebidas">
+                                <label for="bebidas">Bebidas:</label>
+                                    <select>
+                                        <option value="cafe">Café</option>
+                                        <option value="cafe">Café Gelado</option>
+                                        <option value="cappuccino">Cappuccino</option>/
+                                        <option value="água">Água</option>
+                                        <option value="guarana">Guaraná</option>
+                                        <option value="suco">Suco Industrializado</option>
+                                        <option value="suco">Suco Natural</option>
+                                        <option value="coca-cola">Coca-Cola</option>
+                                        <option value="cha">Chá</option></select>
+                            </div>
+<!--Sobremesas-->
+                        <div class="sobremesas">
+                            <label for="sobremesas">Sobremesas doces e salgadas:</label>
+                                <select>
+                                    <option value="bolo">Bolo Doce</option>
+                                    <option value="bolo">Bolo Salgado</option>
+                                    <option value="tortas">Tortas</option>
+                                    <option value="sorvetes">Sorvetes</option>/
+                                    <option value="pudim">Pudim</option>
+                                    <option value="bala">Bala de Coco</option>
+                                    <option value="bala">Bala de Leite</option>
+                                    <option value="bala">Bala de Industrial</option>
+                                    <option value="brigadeiro">Brigadeiro</option>
+                                    <option value="beijinho">Beijinho</option>
+                                </select>
+                        </div>
+
+                    </div>
+
+                                <!--Final-->
+
+<br>
+                    <div class="control">
+                        <button onclick="funcao1()" value="Exibir Alert">Pedir</button>
+                    </div>
+                    <div class="link">
+                        <a href="#">Lanchonete 2K</a>
+                    </div>
+            </div>
+
+            <script src="script.js"></script>
+        </form>
+        </fieldset>
+
+    </section>
+    </body>
+</html>

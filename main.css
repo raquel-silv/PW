@@ -1,0 +1,267 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(fundo1.jpg);
+    background-position: unset;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 7px;
+}
+
+fieldset{
+    margin: 3%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+        background-color: #231f20;
+        height: 75px;
+}
+
+.texto h1 {
+    color: #ffff;
+    background: #231f20;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+    width: 100%;
+    float: left;
+    position: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+.nome {
+    color: #231f20;
+    float: left;
+    padding: 10px;
+    width: 30%;
+    position: static;
+    font-weight: 100%;
+    font-family: uppercase;
+}
+.nome input {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #222;
+}
+.sobrenome {
+    color: #231f20;
+    float: left;
+    padding: 10px;
+    width: 30%;
+    position: static;
+    font-weight: 100%; 
+    font-family: uppercase;
+}
+.sobrenome input {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #222;
+}
+.cpf {
+    color: #231f20;
+    float: left;
+    padding: 10px;
+    width: 30%;
+    position: static;
+    font-weight: 100%; 
+    font-family: uppercase;
+}
+.cpf input {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #222;
+}
+
+.dia {
+    color: #231f20;
+    text-align: left;
+    float: left;
+    padding: 10px;
+    width: 30%;
+    position: static;
+    font-weight: 100%; 
+    font-family: uppercase;
+}
+.dia input {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #222;
+}
+
+.endereço {
+    color: #231f20;
+    text-align: justify;
+    float: left;
+    padding: 10px;
+    width: 30%;
+    position: static;
+    font-weight: 100%; 
+    font-family: uppercase;
+}
+.endereço input {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #222;
+}
+.num {
+    color: #231f20;
+    text-align: justify;
+    float: left;
+    padding: 10px;
+    width: 30%;
+    position: static;
+    font-weight: 100%;
+    font-family: uppercase; 
+}
+.num input {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #222;
+}
+
+.telefone {
+    color: #231f20;
+    font-family: uppercase;
+    padding: 10px;
+    width: 30%;
+    position: static;
+    font-weight: 100%; 
+}
+.telefone input {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #222;
+}
+
+.pedido {
+    font-size: 20px;
+    font-family: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.salgados {
+    padding: 7px;
+    width: 30%;
+    position: static;
+    font-weight: 100%; 
+    color: #ffff;
+    font-family: uppercase;
+}
+.salgados select {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #6a737b;
+ }
+.lanches {
+    padding: 7px;
+    width: 30%;
+    position: static;
+    font-weight: 100%;  
+    color: #ffff;
+    font-family: uppercase;
+}
+.lanches select {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #6a737b;
+ }
+.bebidas {
+    padding: 7px;
+    width: 30%;
+    position: static;
+    font-weight: 100%; 
+    color: #ffff;
+    font-family: uppercase;
+}
+.bebidas select {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #6a737b;
+ }
+
+.sobremesas {
+    padding: 7px;
+    width: 30%;
+    position: static;
+    font-weight: 100%; 
+    color: #ffff;
+    font-family: uppercase;
+}
+.sobremesas select {
+    border-radius: 15px;
+    padding: 7px;
+    border-color: red;
+    background-color: transparent;
+    color: #6a737b;
+ }
+
+.control {
+    position: relative;
+}
+.control button {
+    padding: 7px;
+    padding-left: 7px;
+    text-align: center;
+    text-decoration: underline;
+    width: 10%;
+    width: 10%;
+    color: #ffff;
+    background: black;
+    appearance: auto;
+}
+
+.control button:hover {
+    color: #ffff;
+    background: #d55500;
+    opacity: .7;
+    transition: opacity .4s ease;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: #ffff;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+
+.link a:hover{
+    opacity: 1;
+}
